@@ -4,15 +4,46 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title> マロ| About</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="selected">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="logo">
+        <img src="./img/profile.jpg" alt="">
+        <h1>　マロ　</h1>
+      </div>
+    </header>
+    <div class="container">
+      <section>
+        <h2>About</h2>
+        <h3>自己紹介</h3>
+        <p>マロ（サラリーマン）</p>
+        <p>プログラミング練習中　</p>
+        <p>TechAcademyでどこまで何が出来るようになるか実験中。</p>
+        <p>コンタクトはこちら<a href="contact.html">Contact</a>
+        <h3>リンク</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/tarokirameki" target="_blank">Facebook</a></li>
+          <li><a href="https://twitter.com/tarokirameki" target="_blank">Twitter</a></li>
+        </ul>
+      </section>
+      <footer>
+        <p>&copy; 2016 Maroyan.Inc</p>
+      </footer>
+    </div>
   </body>
 </html>
